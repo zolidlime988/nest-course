@@ -1,0 +1,12 @@
+GET http://localhost:3000/messages
+########################################################################
+
+GET http://localhost:3000/messages/23
+########################################################################
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+   "message": "Test Writint From HTTPS"
+}
